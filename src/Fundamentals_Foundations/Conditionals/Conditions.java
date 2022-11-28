@@ -11,5 +11,15 @@ public class Conditions {
         } else {
             System.out.println("It's not.....");
         }
+
+
+        //Another example:
+        boolean isStudent = true;
+
+        if (!isStudent) {
+           System.out.println("You are not a student!");
+        } else {
+            System.out.println("You are welcome to study!");
+        }
     }
 }

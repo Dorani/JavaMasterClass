@@ -15,11 +15,11 @@ public class Main {
 
         //Overflow demo, busted number, outside range allocated for an integer, so it turns negative.
         System.out.println("Busted Integer Max is: " + myMinInt + 1);
-        //Underflow demo, busted number, outside range allocated for an integer, so it turns postive.
+        //Underflow demo, busted number, outside range allocated for an integer, so it turns positive.
         System.out.println("Busted Integer Max is: " + myMaxInt + 1);
 
-        //New datatype, Byte -128, 127 range, maybe if we have a lot of numbers in that range and we want to save memory:
-        //Modern computers can handle bigger data types, we don't necessarly need to use this in our modern day and age
+        //New datatype, Byte -128, 127 range, maybe if we have a lot of numbers in that range, and we want to save memory:
+        //Modern computers can handle bigger data types, we don't necessarily need to use this in our modern day and age
         byte myMinByte = Byte.MIN_VALUE;
         byte myMaxByte = Byte.MAX_VALUE;
         System.out.println("Byte Min Value: " + myMinByte);
