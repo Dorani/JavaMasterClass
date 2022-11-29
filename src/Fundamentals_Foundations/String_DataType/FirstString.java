@@ -12,7 +12,7 @@ public class FirstString {
         //add stringed numbers
         String myAge = "33";
         String yourAge = "22";
-        //will add the strings together because the datatypes is still a string
+        //will add the strings together because the data types is still a string
         System.out.println("Our ages combined together is" + myAge+ yourAge);
 
 
