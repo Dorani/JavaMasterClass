@@ -32,8 +32,14 @@ public class Foundations {
 
         //Convert KB to MB + remainder, void function
         //Example: 5
-        printMegaBytesAndKiloBytes(12345);
         System.out.println("Fifth example - printMegaBytesAndKiloBytes");
+        printMegaBytesAndKiloBytes(12345);
+        System.out.println("---------------------------------------------------");
+
+        //Convert KPH to MPH + remainder, long type function
+        //Example: 6
+        System.out.println("Sixth example - toMilesPerHour");
+        System.out.println(toMilesPerHour(0));
         System.out.println("---------------------------------------------------");
     }
     //Test on data types, conditionals, and boolean functions
@@ -77,5 +83,13 @@ public class Foundations {
         long remainingKiloBytes = kiloBytes % 1024;
         System.out.println(kiloBytes + " KB = " + conversion
                 + " MB and " + remainingKiloBytes+ " KB");
+    }
+
+    //Test on data types, integers, conversions and functions of type long
+    public static long toMilesPerHour(double kilometerPerHour) {
+        if (kilometerPerHour < 0) {
+            return -1;
+        }
+        return Math.round(kilometerPerHour / 1.609);
     }
 }
