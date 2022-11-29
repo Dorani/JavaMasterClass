@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="here is the code update for the foundations review">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="added new activity, kpm to mph">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Foundations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Foundations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Foundations">
+  <component name="RunManager" selected="Application.FoundationsTwo">
     <configuration name="Conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fundamentals_Foundations.Conditionals.Conditions" />
       <module name="JavaMasterClass" />
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structures.Linked_Lists.LinkedListDemo" />
+    <configuration name="FoundationsTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsTwo" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data_Structures.Linked_Lists.*" />
+          <option name="PATTERN" value="Major_Review_Activities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FoundationsTwo" />
         <item itemvalue="Application.Foundations" />
         <item itemvalue="Application.UserInputChallenge" />
         <item itemvalue="Application.MaxMinChallenge" />
         <item itemvalue="Application.Conditions" />
-        <item itemvalue="Application.LinkedListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669683782470</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added new activity, kpm to mph">
+      <created>1669685279058</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669685279058</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +197,7 @@
     <MESSAGE value="adding more examples to refresh java skills" />
     <MESSAGE value="expanding out java fundamentals with some practice and organizing it for learning purposes" />
     <MESSAGE value="here is the code update for the foundations review" />
-    <option name="LAST_COMMIT_MESSAGE" value="here is the code update for the foundations review" />
+    <MESSAGE value="added new activity, kpm to mph" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new activity, kpm to mph" />
   </component>
 </project>
