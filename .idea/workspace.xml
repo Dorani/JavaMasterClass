@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="multiple new sub routines with progressive difficulty, moving on to foundations 3 now">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="added new examples on number manipulation with mods, getting a bit more complex but fun.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsThree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +52,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FoundationsTwo">
-    <configuration name="Conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fundamentals_Foundations.Conditionals.Conditions" />
+  <component name="RunManager" selected="Application.FoundationsThree">
+    <configuration name="Foundations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals_Foundations.Conditionals.*" />
+          <option name="PATTERN" value="Major_Review_Activities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Foundations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations" />
+    <configuration name="FoundationsThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsThree" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FoundationsThree" />
         <item itemvalue="Application.FoundationsTwo" />
         <item itemvalue="Application.Foundations" />
         <item itemvalue="Application.UserInputChallenge" />
         <item itemvalue="Application.MaxMinChallenge" />
-        <item itemvalue="Application.Conditions" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669726243407</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="multiple new sub routines with progressive difficulty, moving on to foundations 3 now">
+      <created>1669771705405</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669771705405</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +245,7 @@
     <MESSAGE value="added method overloading example with some explanation" />
     <MESSAGE value="edits" />
     <MESSAGE value="multiple new sub routines with progressive difficulty, moving on to foundations 3 now" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiple new sub routines with progressive difficulty, moving on to foundations 3 now" />
+    <MESSAGE value="added new examples on number manipulation with mods, getting a bit more complex but fun." />
+    <option name="LAST_COMMIT_MESSAGE" value="added new examples on number manipulation with mods, getting a bit more complex but fun." />
   </component>
 </project>
