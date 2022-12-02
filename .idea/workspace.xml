@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="added new examples on number manipulation with mods, getting a bit more complex but fun. for the switch statement, we modified to an enhanced version.">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="added new isOdd example, still working through some algos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsThree.java" afterDir="false" />
     </list>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669806006521</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added new isOdd example, still working through some algos">
+      <created>1669943636594</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669943636594</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +261,7 @@
     <MESSAGE value="multiple new sub routines with progressive difficulty, moving on to foundations 3 now" />
     <MESSAGE value="added new examples on number manipulation with mods, getting a bit more complex but fun." />
     <MESSAGE value="added new examples on number manipulation with mods, getting a bit more complex but fun. for the switch statement, we modified to an enhanced version." />
-    <option name="LAST_COMMIT_MESSAGE" value="added new examples on number manipulation with mods, getting a bit more complex but fun. for the switch statement, we modified to an enhanced version." />
+    <MESSAGE value="added new isOdd example, still working through some algos" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new isOdd example, still working through some algos" />
   </component>
 </project>

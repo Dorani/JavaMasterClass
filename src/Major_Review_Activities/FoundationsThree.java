@@ -17,6 +17,7 @@ public class FoundationsThree {
         System.out.println("Third example - Is Odd:");
         System.out.println(isOdd(3));
         System.out.println("Third example 2.0 - Sum Odd:");
+        System.out.println(sumOdd(1, 100));
         System.out.println("---------------------------------------------------");
 
 
@@ -61,5 +62,21 @@ public class FoundationsThree {
             return true;
         }
     }
-
+    //Test on data types, conversions and maths, function reuse, and int typed functions
+    public static int sumOdd(int start, int end) {
+        int sum = 0;
+        if((end <= start) && (start <0 && end <0)) {
+            return -1;
+        } else if(start >= 0 && end >=0) {
+            //iterate through the range
+            for(int i = start; i <= end; i++){
+                //check to see if number is odd
+                if(isOdd(i)) {
+                    //add to sum
+                    sum += i;
+                }
+            }
+        }
+        return sum;
+    }
 }
