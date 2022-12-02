@@ -12,6 +12,14 @@ public class FoundationsThree {
         System.out.println("Second example - printDayOfTheWeek:");
         System.out.println("The Sum of digits in the number 125 is " + sumDigits(125));
         System.out.println("---------------------------------------------------");
+
+        //Third example:
+        System.out.println("Third example - Is Odd:");
+        System.out.println(isOdd(3));
+        System.out.println("Third example 2.0 - Sum Odd:");
+        System.out.println("---------------------------------------------------");
+
+
     }
 
 
@@ -43,4 +51,15 @@ public class FoundationsThree {
         }
         return sum;
     }
+
+    //Test on data types, conversions and maths, and boolean typed functions
+    public static boolean isOdd(int number) {
+        if(number < 0) return false;
+        if(number % 2 == 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
 }
