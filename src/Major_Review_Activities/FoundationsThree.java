@@ -56,16 +56,12 @@ public class FoundationsThree {
     //Test on data types, conversions and maths, and boolean typed functions
     public static boolean isOdd(int number) {
         if(number < 0) return false;
-        if(number % 2 == 0) {
-            return false;
-        } else {
-            return true;
-        }
+        return number % 2 != 0;
     }
     //Test on data types, conversions and maths, function reuse, and int typed functions
     public static int sumOdd(int start, int end) {
         int sum = 0;
-        if((end <= start) && (start <0 && end <0)) {
+        if(end <= start && start < 0) {
             return -1;
         } else if(start >= 0 && end >=0) {
             //iterate through the range
