@@ -20,6 +20,11 @@ public class FoundationsThree {
         System.out.println(sumOdd(1, 100));
         System.out.println("---------------------------------------------------");
 
+        //Fourth example:
+        System.out.println("Fourth example - Sum Only up to 1000:");
+        sumOnly();
+        System.out.println("---------------------------------------------------");
+
 
     }
 
@@ -63,7 +68,7 @@ public class FoundationsThree {
         int sum = 0;
         if(end <= start && start < 0) {
             return -1;
-        } else if(start >= 0 && end >=0) {
+        } else if(start >= 0 && end >= 0) {
             //iterate through the range
             for(int i = start; i <= end; i++){
                 //check to see if number is odd
@@ -75,4 +80,23 @@ public class FoundationsThree {
         }
         return sum;
     }
+
+    //Test on data types, conversions and maths, function reuse, and int typed functions
+    public static void sumOnly() {
+        int sum = 0;
+        int count = 0;
+
+        for(int i = 0; i < 1000; i++) {
+            if((i % 3 == 0) && (i % 5 == 0)) {
+                sum += i;
+                count++;
+                System.out.println("Found number: " + i);
+            }
+            if(count == 5) {
+                break;
+            }
+        }
+        System.out.println(sum);
+    }
+
 }

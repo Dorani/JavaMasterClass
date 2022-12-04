@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="picking up steam with java algos">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="some optimization in the code base">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsThree.java" afterDir="false" />
     </list>
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669948724099</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="some optimization in the code base">
+      <created>1670193240874</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670193240874</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +277,8 @@
     <MESSAGE value="added new examples on number manipulation with mods, getting a bit more complex but fun. for the switch statement, we modified to an enhanced version." />
     <MESSAGE value="added new isOdd example, still working through some algos" />
     <MESSAGE value="picking up steam with java algos" />
-    <option name="LAST_COMMIT_MESSAGE" value="picking up steam with java algos" />
+    <MESSAGE value="some optimization in the code base" />
+    <option name="LAST_COMMIT_MESSAGE" value="some optimization in the code base" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
