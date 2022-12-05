@@ -92,7 +92,7 @@ public class FoundationsThree {
                 count++;
                 System.out.println("Found number: " + i);
             }
-            if(count == 5) {
+            if(count == 10) {
                 break;
             }
         }

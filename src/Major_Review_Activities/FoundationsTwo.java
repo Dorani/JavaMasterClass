@@ -35,23 +35,21 @@ public class FoundationsTwo {
         if(radius < 0) {
             return -1;
         }
-        double area = (radius * radius) * Math.PI;
-        return area;
+        return (radius * radius) * Math.PI;
     }
     //Test on data types, conditionals, and double typed Overloaded functions
     public static double area(double length, double width) {
         if(length < 0 || width < 0) {
             return -1;
         }
-        double area = length * width;
-        return area;
+        return length * width;
     }
 
     //Test on data types, compare between inputs, void functions
     public static void printEqual(int num1, int num2, int num3) {
         if(num1 < 0 || num2 < 0 || num3 < 0) {
             System.out.println("Invalid Text");
-        } else if((num1 == num2) && (num2 == num3 )&& (num1 == num3)) {
+        } else if((num2 == num3) && (num1 == num3)) {
             System.out.println("All numbers are equal");
         } else if((num1 != num2) && (num2 != num3 )&& (num1 != num3)) {
             System.out.println("All numbers are different");
@@ -61,11 +59,13 @@ public class FoundationsTwo {
     }
 
     //Test on data types, formulas, void functions
+    @SuppressWarnings("IntegerDivisionInFloatingPointContext")
     public static void printYearsAndDays(long minutes) {
         if (minutes < 0) {
             System.out.println("Invalid Value");
         } else {
-            int years = Math.round((minutes /365) / 60 / 24) ;
+            int years;
+            years = Math.round((minutes /365) / 60 / 24);
             long days = ((minutes / 60) / 24) % 365;
             System.out.println(minutes + " min = " + years + " y and " + days + " d");
         }
