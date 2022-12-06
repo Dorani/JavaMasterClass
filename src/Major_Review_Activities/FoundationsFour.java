@@ -17,6 +17,11 @@ public class FoundationsFour {
         System.out.println("Second example - sumFirstAndLastDigit: 2345, 2+5:");
         System.out.println(sumFirstAndLastDigit(2345));
         System.out.println("---------------------------------------------------");
+
+        //Third example:
+        System.out.println("Third example - getEvenDigitSum: 2345, 2+4:");
+        System.out.println(getEvenDigitSum(2345));
+        System.out.println("---------------------------------------------------");
     }
     //Function that checks if the reverse of a number is equal to the initial
     public static boolean isPalindrome(int number) {
@@ -50,5 +55,21 @@ public class FoundationsFour {
             }
             return firstNumber + lastNumber;
         }
+    }
+
+    //Function that exacts all even digits from a number and sums them up
+    public static int getEvenDigitSum(int number) {
+        if(number < 0) {
+            return -1;
+        }
+        int sum = 0;
+        while(number > 0) {
+            int remainder = number % 10;
+            if(remainder % 2 == 0) {
+                sum += remainder;
+            }
+            number = number / 10;
+        }
+        return sum;
     }
 }

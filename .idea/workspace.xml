@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="just some edits and new example to check out true">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="working through more algos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" afterDir="false" />
     </list>
@@ -291,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670296611096</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="working through more algos">
+      <created>1670361854827</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670361854827</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,7 +333,8 @@
     <MESSAGE value="removed redundant code and optimized" />
     <MESSAGE value="isPalindrome example complete, using a math approach with mod and division as well as temp variables" />
     <MESSAGE value="just some edits and new example to check out true" />
-    <option name="LAST_COMMIT_MESSAGE" value="just some edits and new example to check out true" />
+    <MESSAGE value="working through more algos" />
+    <option name="LAST_COMMIT_MESSAGE" value="working through more algos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
