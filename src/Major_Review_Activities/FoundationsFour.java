@@ -27,6 +27,11 @@ public class FoundationsFour {
         System.out.println("Fourth example - hasSharedDigit: 12, 32:");
         System.out.println(hasSharedDigit(12, 32));
         System.out.println("---------------------------------------------------");
+
+        //Fifth example:
+        System.out.println("Fifth example - hasSameLastDigit: 41, 22, 71:");
+        System.out.println(hasSameLastDigit(41, 22, 71));
+        System.out.println("---------------------------------------------------");
     }
     //Function that checks if the reverse of a number is equal to the initial
     public static boolean isPalindrome(int number) {
