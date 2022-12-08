@@ -32,6 +32,11 @@ public class FoundationsFour {
         System.out.println("Fifth example - hasSameLastDigit: 41, 22, 71:");
         System.out.println(hasSameLastDigit(41, 22, 71));
         System.out.println("---------------------------------------------------");
+
+        //Sixth example:
+        System.out.println("Sixth example - Print Factors: 10:");
+        printFactors(10);
+        System.out.println("---------------------------------------------------");
     }
     //Function that checks if the reverse of a number is equal to the initial
     public static boolean isPalindrome(int number) {
@@ -106,6 +111,7 @@ public class FoundationsFour {
         }
         return false;
     }
+
     public static boolean hasSameLastDigit(int num1, int num2, int num3) {
         if (isValid(num1) && isValid(num2) && isValid(num3)) {
             int value1 = num1 % 10;
@@ -119,4 +125,16 @@ public class FoundationsFour {
         }
         return false;
     }
+
+   public static void printFactors(int number) {
+        if (number < 1) {
+            System.out.println("Invalid Value");
+        } else {
+            for(int i = 1; i <= number; i++) {
+                if(number % i == 0) {
+                    System.out.println(i);
+                }
+            }
+        }
+   }
 }
