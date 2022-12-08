@@ -94,4 +94,19 @@ public class FoundationsFour {
         }
         return false;
     }
+
+
+    public static boolean hasSameLastDigit(int num1, int num2, int num3) {
+        if ((num1 >= 10 && num1 <= 1000) && (num2 >= 10 && num2 <= 1000) && (num3 >= 10 && num3 <= 1000)) {
+            int value1 = num1 % 10;
+            int value2 = num2 % 10;
+            int value3 = num3 % 10;
+
+            if(value1 == value2 || value1 == value3 || value2 == value3) {
+                return true;
+            }
+            return false;
+        }
+        return false;
+    }
 }
