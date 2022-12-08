@@ -22,6 +22,11 @@ public class FoundationsFour {
         System.out.println("Third example - getEvenDigitSum: 2345, 2+4:");
         System.out.println(getEvenDigitSum(2345));
         System.out.println("---------------------------------------------------");
+
+        //Fourth example:
+        System.out.println("Fourth example - hasSharedDigit: 12, 32:");
+        System.out.println(hasSharedDigit(12, 32));
+        System.out.println("---------------------------------------------------");
     }
     //Function that checks if the reverse of a number is equal to the initial
     public static boolean isPalindrome(int number) {
@@ -71,5 +76,22 @@ public class FoundationsFour {
             number = number / 10;
         }
         return sum;
+    }
+
+    public static boolean hasSharedDigit(int number1, int number2) {
+        if((number1 >= 10 && number1 <= 99) && (number2 >= 10 && number2 <= 99)) {
+            int value = number1 % 10;
+            number1 = number1 / 10;
+
+            int value2 = number2 % 10;
+            number2 = number2 /10;
+
+            if((number1 == number2) || (value == value2) || (value == number2) || (value2 == number2)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        return false;
     }
 }

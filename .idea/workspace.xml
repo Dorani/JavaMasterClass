@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="working through more algos">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="built out another algo with a pure math based approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" afterDir="false" />
     </list>
@@ -298,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670361854827</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="third algos to sum even numbers in any digit, still using a math based approach with mod and div">
+      <created>1670362793939</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670362793939</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,7 +341,9 @@
     <MESSAGE value="isPalindrome example complete, using a math approach with mod and division as well as temp variables" />
     <MESSAGE value="just some edits and new example to check out true" />
     <MESSAGE value="working through more algos" />
-    <option name="LAST_COMMIT_MESSAGE" value="working through more algos" />
+    <MESSAGE value="third algos to sum even numbers in any digit, still using a math based approach with mod and div" />
+    <MESSAGE value="built out another algo with a pure math based approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="built out another algo with a pure math based approach" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
