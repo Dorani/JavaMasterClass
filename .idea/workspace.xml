@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="implemented greatest common divisor algo using a pure math approach - going to stick to this style for a bit">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="tested, works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" afterDir="false" />
     </list>
@@ -347,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670700123256</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="tested, works">
+      <created>1670704195574</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1670704195574</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,13 +388,13 @@
     <MESSAGE value="working through more algos" />
     <MESSAGE value="third algos to sum even numbers in any digit, still using a math based approach with mod and div" />
     <MESSAGE value="built out another algo with a pure math based approach" />
-    <MESSAGE value="tested, works" />
     <MESSAGE value="new algo, still same approach, but looks like we can clean things up a bit with another function" />
     <MESSAGE value="simplified, about to test" />
     <MESSAGE value="function tested, works, moving on" />
     <MESSAGE value="print factors complete" />
     <MESSAGE value="implemented greatest common divisor algo using a pure math approach - going to stick to this style for a bit" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented greatest common divisor algo using a pure math approach - going to stick to this style for a bit" />
+    <MESSAGE value="tested, works" />
+    <option name="LAST_COMMIT_MESSAGE" value="tested, works" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

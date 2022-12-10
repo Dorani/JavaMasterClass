@@ -39,8 +39,8 @@ public class FoundationsFour {
         System.out.println("---------------------------------------------------");
 
         //Seventh example:
-        System.out.println("Seventh example - getGreatestCommonDivisor: 25, 12");
-        System.out.println(getGreatestCommonDivisor(15, 25));
+        System.out.println("Seventh example - getGreatestCommonDivisor: 15, 25");
+        System.out.println(getGreatestCommonDivisor(12, 30));
         System.out.println("---------------------------------------------------");
     }
     //Function that checks if the reverse of a number is equal to the initial
@@ -77,7 +77,7 @@ public class FoundationsFour {
         }
     }
 
-    //Function that exacts all even digits from a number and sums them up
+    //Function that extracts all even digits from a number and sums them up
     public static int getEvenDigitSum(int number) {
         if(number < 0) {
             return -1;
@@ -93,6 +93,7 @@ public class FoundationsFour {
         return sum;
     }
 
+    //Function that checks if two numbers have shared common digits
     public static boolean hasSharedDigit(int number1, int number2) {
         if((number1 >= 10 && number1 <= 99) && (number2 >= 10 && number2 <= 99)) {
             int value = number1 % 10;
@@ -110,6 +111,7 @@ public class FoundationsFour {
         return false;
     }
 
+    //Helper Function that checks conditions of passed parameters
     public static boolean isValid(int number) {
         if(number >= 10 && number <= 1000) {
             return true;
@@ -117,6 +119,7 @@ public class FoundationsFour {
         return false;
     }
 
+    //Function that checks if at least two numbers share the same last digit
     public static boolean hasSameLastDigit(int num1, int num2, int num3) {
         if (isValid(num1) && isValid(num2) && isValid(num3)) {
             int value1 = num1 % 10;
@@ -131,6 +134,7 @@ public class FoundationsFour {
         return false;
     }
 
+    //Function that prints all factors of a given number passed in
    public static void printFactors(int number) {
         if (number < 1) {
             System.out.println("Invalid Value");
@@ -143,6 +147,7 @@ public class FoundationsFour {
         }
    }
 
+    //Function that will print out the highest common divisor between 2 numbers
    public static int getGreatestCommonDivisor(int number1, int number2) {
         if(number1 < 10 || number2 < 10) {
             return -1;
