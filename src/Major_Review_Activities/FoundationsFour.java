@@ -37,6 +37,11 @@ public class FoundationsFour {
         System.out.println("Sixth example - Print Factors: 10:");
         printFactors(10);
         System.out.println("---------------------------------------------------");
+
+        //Seventh example:
+        System.out.println("Seventh example - getGreatestCommonDivisor:");
+        //getGreatestCommonDivisor(15, 25);
+        System.out.println("---------------------------------------------------");
     }
     //Function that checks if the reverse of a number is equal to the initial
     public static boolean isPalindrome(int number) {
@@ -135,6 +140,30 @@ public class FoundationsFour {
                     System.out.println(i);
                 }
             }
+        }
+   }
+
+   public static int getGreatestCommonDivisor(int number1, int number2) {
+        if(number1 < 10 || number2 <10) {
+            return -1;
+        } else {
+            int maxNumber = 0;
+            int minNumber = 0;
+            int greatestCommonDivisor = 0;
+
+            if (number1 > number2) {
+                maxNumber = number1;
+                minNumber = number2;
+            } else {
+                maxNumber = number2;
+                minNumber = number1;
+            }
+            for(int i = 1; i < minNumber; i++) {
+                if(minNumber % i ==0 && maxNumber %i ==0) {
+                    greatestCommonDivisor += i;
+                }
+            }
+            return greatestCommonDivisor;
         }
    }
 }

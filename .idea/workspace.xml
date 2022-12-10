@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="function tested, works, moving on">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="print factors complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsThree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670474053557</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="print factors complete">
+      <created>1670507307930</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670507307930</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +356,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="expanding out java fundamentals with some practice and organizing it for learning purposes" />
     <MESSAGE value="here is the code update for the foundations review" />
     <MESSAGE value="added new activity, kpm to mph" />
     <MESSAGE value="added new foundations, calc the area of a circle" />
@@ -373,7 +380,8 @@
     <MESSAGE value="new algo, still same approach, but looks like we can clean things up a bit with another function" />
     <MESSAGE value="simplified, about to test" />
     <MESSAGE value="function tested, works, moving on" />
-    <option name="LAST_COMMIT_MESSAGE" value="function tested, works, moving on" />
+    <MESSAGE value="print factors complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="print factors complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -98,5 +98,6 @@ public class FoundationsThree {
         }
         System.out.println(sum);
     }
+    
 
 }
