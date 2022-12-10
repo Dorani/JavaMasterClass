@@ -39,8 +39,8 @@ public class FoundationsFour {
         System.out.println("---------------------------------------------------");
 
         //Seventh example:
-        System.out.println("Seventh example - getGreatestCommonDivisor:");
-        //getGreatestCommonDivisor(15, 25);
+        System.out.println("Seventh example - getGreatestCommonDivisor: 25, 12");
+        System.out.println(getGreatestCommonDivisor(15, 25));
         System.out.println("---------------------------------------------------");
     }
     //Function that checks if the reverse of a number is equal to the initial
@@ -144,7 +144,7 @@ public class FoundationsFour {
    }
 
    public static int getGreatestCommonDivisor(int number1, int number2) {
-        if(number1 < 10 || number2 <10) {
+        if(number1 < 10 || number2 < 10) {
             return -1;
         } else {
             int maxNumber = 0;
@@ -158,9 +158,9 @@ public class FoundationsFour {
                 maxNumber = number2;
                 minNumber = number1;
             }
-            for(int i = 1; i < minNumber; i++) {
-                if(minNumber % i ==0 && maxNumber %i ==0) {
-                    greatestCommonDivisor += i;
+            for(int i = 1; i <= minNumber; i++) {
+                if((minNumber % i == 0) && (maxNumber % i == 0)) {
+                    greatestCommonDivisor = i;
                 }
             }
             return greatestCommonDivisor;
