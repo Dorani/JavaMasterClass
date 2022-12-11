@@ -42,6 +42,11 @@ public class FoundationsFour {
         System.out.println("Seventh example - getGreatestCommonDivisor: 15, 25");
         System.out.println(getGreatestCommonDivisor(12, 30));
         System.out.println("---------------------------------------------------");
+
+        //Eighth example:
+        System.out.println("Eighth example - isPerfectNumber: 6");
+        System.out.println(isPerfectNumber(6));
+        System.out.println("---------------------------------------------------");
     }
     //Function that checks if the reverse of a number is equal to the initial
     public static boolean isPalindrome(int number) {
@@ -171,4 +176,20 @@ public class FoundationsFour {
             return greatestCommonDivisor;
         }
    }
+
+    //Function that will determine whether a number is perfect, ie an:
+    //integer which is equal to the sum of its proper positive divisors.
+    public static boolean isPerfectNumber(int number) {
+        int sum = 0;
+        if(number < 1) {
+            return false;
+        } else {
+           for(int i = 1; i < number; i++) {
+              if(number % i == 0) {
+                  sum += i;
+              }
+           }
+        }
+        return sum == number;
+    }
 }

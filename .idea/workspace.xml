@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="tested, works">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="added comments to foundations 4, a little explanation high level of each algo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" afterDir="false" />
     </list>
@@ -354,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670704195574</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="added comments to foundations 4, a little explanation high level of each algo">
+      <created>1670711393914</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1670711393914</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +376,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added new activity, kpm to mph" />
     <MESSAGE value="added new foundations, calc the area of a circle" />
     <MESSAGE value="added method overloading example with some explanation" />
     <MESSAGE value="edits" />
@@ -394,7 +400,8 @@
     <MESSAGE value="print factors complete" />
     <MESSAGE value="implemented greatest common divisor algo using a pure math approach - going to stick to this style for a bit" />
     <MESSAGE value="tested, works" />
-    <option name="LAST_COMMIT_MESSAGE" value="tested, works" />
+    <MESSAGE value="added comments to foundations 4, a little explanation high level of each algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="added comments to foundations 4, a little explanation high level of each algo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
