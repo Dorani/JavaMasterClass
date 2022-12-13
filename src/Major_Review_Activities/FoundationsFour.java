@@ -198,6 +198,7 @@ public class FoundationsFour {
         return sum == number;
     }
 
+    //Function that will print out the direct translation, in order, or numbers to words
     public static void numberToWords(int number) {
         int lastDigit = 0;
         if (number < 0) {
@@ -224,7 +225,7 @@ public class FoundationsFour {
             }
         }
     }
-
+    //Helper Function 1 for numberToWords
     public static int reverse(int number) {
         int reversed = 0;
         while(number != 0) {
