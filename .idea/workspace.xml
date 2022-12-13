@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="added new algos to determine if a number passed into a function is a perfect number, check comments">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="new algo, works, but def needs to be optmized with 2 new sub routines, a reverse, and a perhaps a converter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" afterDir="false" />
     </list>
@@ -368,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670728176275</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="new algo, works, but def needs to be optmized with 2 new sub routines, a reverse, and a perhaps a converter">
+      <created>1670902602639</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1670902602639</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,7 +390,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added method overloading example with some explanation" />
     <MESSAGE value="edits" />
     <MESSAGE value="multiple new sub routines with progressive difficulty, moving on to foundations 3 now" />
     <MESSAGE value="added new examples on number manipulation with mods, getting a bit more complex but fun." />
@@ -408,7 +414,19 @@
     <MESSAGE value="tested, works" />
     <MESSAGE value="added comments to foundations 4, a little explanation high level of each algo" />
     <MESSAGE value="added new algos to determine if a number passed into a function is a perfect number, check comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new algos to determine if a number passed into a function is a perfect number, check comments" />
+    <MESSAGE value="new algo, works, but def needs to be optmized with 2 new sub routines, a reverse, and a perhaps a converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="new algo, works, but def needs to be optmized with 2 new sub routines, a reverse, and a perhaps a converter" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/Algorithms_Intro_4/NumberToWords.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
