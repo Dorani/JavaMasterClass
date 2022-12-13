@@ -207,7 +207,9 @@ public class FoundationsFour {
         if (number == 0) {
             System.out.println("Zero");
         } else {
+
             int reversedNumber = reverse(number);
+            int zeros = getDigitCount(number) - getDigitCount(reversedNumber);
             while(reversedNumber > 0) {
                 lastDigit = reversedNumber % 10;
                 switch (lastDigit) {
@@ -223,6 +225,10 @@ public class FoundationsFour {
                 }
                 reversedNumber = reversedNumber /10;
             }
+            while(zeros > 0) {
+                System.out.println("Zero");
+                zeros--;
+            }
         }
     }
     //Helper Function 1 for numberToWords
@@ -234,6 +240,23 @@ public class FoundationsFour {
             number = number / 10;
         }
         return reversed;
+    }
+    //Helper Function 2 for numberToWords
+    public static int getDigitCount(int number) {
+        if (number < 0) {
+            return -1;
+        } else {
+            int digitCount = 0;
+            if(number == 0) {
+                digitCount = 1;
+            }
+            while (number > 0) {
+                digitCount++;
+                number = number / 10;
+            }
+
+            return digitCount;
+        }
     }
 
 }

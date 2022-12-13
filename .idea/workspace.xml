@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="fixed the reverse issue with a new method to help us in our main function">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="adding some comments to explain">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" afterDir="false" />
     </list>
@@ -382,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670903306590</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="adding some comments to explain">
+      <created>1670903493195</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1670903493195</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,7 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="multiple new sub routines with progressive difficulty, moving on to foundations 3 now" />
     <MESSAGE value="added new examples on number manipulation with mods, getting a bit more complex but fun." />
     <MESSAGE value="added new examples on number manipulation with mods, getting a bit more complex but fun. for the switch statement, we modified to an enhanced version." />
     <MESSAGE value="added new isOdd example, still working through some algos" />
@@ -422,7 +428,8 @@
     <MESSAGE value="added new algos to determine if a number passed into a function is a perfect number, check comments" />
     <MESSAGE value="new algo, works, but def needs to be optmized with 2 new sub routines, a reverse, and a perhaps a converter" />
     <MESSAGE value="fixed the reverse issue with a new method to help us in our main function" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the reverse issue with a new method to help us in our main function" />
+    <MESSAGE value="adding some comments to explain" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding some comments to explain" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
