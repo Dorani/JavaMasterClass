@@ -47,6 +47,11 @@ public class FoundationsFour {
         System.out.println("Eighth example - isPerfectNumber: 6");
         System.out.println(isPerfectNumber(6));
         System.out.println("---------------------------------------------------");
+
+        //Ninth example:
+        System.out.println("Ninth example - numberToWords: 123");
+        numberToWords(123);
+        System.out.println("---------------------------------------------------");
     }
     //Function that checks if the reverse of a number is equal to the initial
     public static boolean isPalindrome(int number) {
@@ -191,5 +196,56 @@ public class FoundationsFour {
            }
         }
         return sum == number;
+    }
+
+    public static void numberToWords(int number) {
+        int lastDigit = 0;
+        if (number < 0) {
+            System.out.println("Invalid Input");
+        }
+        if (number == 0) {
+            System.out.println("Zero");
+        } else {
+            while(number > 0) {
+                lastDigit = number % 10;
+                switch (lastDigit) {
+                    case 1:
+                        System.out.println("One");
+                        break;
+
+                    case 2:
+                            System.out.println("Two");
+                        break;
+
+                    case 3:
+                        System.out.println("Three");
+                        break;
+
+                    case 4:
+                        System.out.println("Four");
+                        break;
+
+                    case 5:
+                        System.out.println("Five");
+                        break;
+
+                    case 6:
+                        System.out.println("Six");
+                        break;
+
+                    case 7:
+                        System.out.println("Seven");
+                        break;
+                    case 8:
+                        System.out.println("Eight");
+                        break;
+
+                    case 9:
+                        System.out.println("Nine");
+                        break;
+                }
+                number = number /10;
+            }
+        }
     }
 }
