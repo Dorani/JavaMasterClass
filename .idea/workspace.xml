@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="can pack algo is done">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="more optimized approach to the packing algo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFive.java" afterDir="false" />
     </list>
@@ -417,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671038426350</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="more optimized approach to the packing algo">
+      <created>1671054603420</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1671054603420</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="picking up steam with java algos" />
     <MESSAGE value="some optimization in the code base" />
     <MESSAGE value="added a new function, getting much better with java" />
     <MESSAGE value="beg of a bit tougher exercises" />
@@ -457,7 +463,8 @@
     <MESSAGE value="optimized algos with another helper function, everything seems to be working, moving on to more complex problems soon, and some oop" />
     <MESSAGE value="just starting a new problem set, won't get to tackle it completely" />
     <MESSAGE value="can pack algo is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="can pack algo is done" />
+    <MESSAGE value="more optimized approach to the packing algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="more optimized approach to the packing algo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
