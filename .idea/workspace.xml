@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="just starting a new problem set, won't get to tackle it completely">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="can pack algo is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFive.java" afterDir="false" />
     </list>
@@ -410,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670991264419</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="can pack algo is done">
+      <created>1671038426350</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1671038426350</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -425,7 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added new isOdd example, still working through some algos" />
     <MESSAGE value="picking up steam with java algos" />
     <MESSAGE value="some optimization in the code base" />
     <MESSAGE value="added a new function, getting much better with java" />
@@ -450,7 +456,8 @@
     <MESSAGE value="adding some comments to explain" />
     <MESSAGE value="optimized algos with another helper function, everything seems to be working, moving on to more complex problems soon, and some oop" />
     <MESSAGE value="just starting a new problem set, won't get to tackle it completely" />
-    <option name="LAST_COMMIT_MESSAGE" value="just starting a new problem set, won't get to tackle it completely" />
+    <MESSAGE value="can pack algo is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="can pack algo is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

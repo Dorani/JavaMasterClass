@@ -9,22 +9,15 @@ public class FoundationsFive {
         System.out.println("---------------------------------------------------");
     }
 
-    public static boolean canPack(int bigCount, int smallCount, int goal) {
-        if ((bigCount < 0) || (smallCount < 0) || (goal < 0)) {
-            return false;
-        } else if((bigCount == 0) && (smallCount == 0) && (goal > 0)) {
-            return false;
-        } else {
-            int actualBigCount = bigCount * 5;
-            for(int x = 0; x <= smallCount; x++) {
-                for(int y = 0; y <=bigCount; y++) {
-                    if(actualBigCount + smallCount == goal) {
-                        return true;
-                    }
-                }
-            }
-        }
-        return false;
-    }
 
+    public static boolean canPack(int bigCount, int smallCount, int goal) {
+        if((bigCount < 0) || (smallCount < 0) || (goal < 0)) {
+            return false;
+        }
+        while((bigCount > 0) && (goal >= 5)) {
+            goal -= 5;
+            bigCount--;
+        }
+        return smallCount >= goal;
+    }
 }
