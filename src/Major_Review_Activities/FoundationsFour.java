@@ -39,7 +39,7 @@ public class FoundationsFour {
         System.out.println("---------------------------------------------------");
 
         //Seventh example:
-        System.out.println("Seventh example - getGreatestCommonDivisor: 15, 25");
+        System.out.println("Seventh example - getGreatestCommonDivisor: 12, 30");
         System.out.println(getGreatestCommonDivisor(12, 30));
         System.out.println("---------------------------------------------------");
 
@@ -158,29 +158,23 @@ public class FoundationsFour {
    }
 
     //Function that will print out the highest common divisor between 2 numbers
-   public static int getGreatestCommonDivisor(int number1, int number2) {
-        if(number1 < 10 || number2 < 10) {
-            return -1;
-        } else {
-            int maxNumber = 0;
-            int minNumber = 0;
-            int greatestCommonDivisor = 0;
 
-            if (number1 > number2) {
-                maxNumber = number1;
-                minNumber = number2;
-            } else {
-                maxNumber = number2;
-                minNumber = number1;
-            }
-            for(int i = 1; i <= minNumber; i++) {
-                if((minNumber % i == 0) && (maxNumber % i == 0)) {
-                    greatestCommonDivisor = i;
+
+    public static int getGreatestCommonDivisor(int first, int second){
+        if(first>=10 && second>=10) {
+            // Find the minimum of 2 num to improve efficiency
+            int min = Math.min(first, second);
+            int greatestCommonDivisor = 0;
+            // Can use i=first or i=second, but not as performant as i=min
+            for(int i = min; i > 1; i--){
+                if((first % i== 0) && (second %i == 0)){
+                    // return highest divisor and break
+                    return greatestCommonDivisor = i;
                 }
             }
-            return greatestCommonDivisor;
         }
-   }
+        return -1;
+    }
 
     //Function that will determine whether a number is perfect, ie an:
     //integer which is equal to the sum of its proper positive divisors.
