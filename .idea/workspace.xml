@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="explanation added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" afterDir="false" />
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="optimized the isPerfectNumber algo, the logic is that when a number is divisible by 2, there's a corresponding &quot;pair&quot; of number/2...So for number = 28, if it's divisible by 2, then the &quot;pair&quot; is number/2 or 28/2 = 14.  Since 2 is the smallest divisible number, then 14 is the largest divisible number, i.e. you won't find any divisible number between 14 and 28.   1 + 2 + 4 + 7 + 14 = 28.  Thus, we can just short-circuit the loop to stop at half of number or number/2.  This will improve the code performance by looping only half as much.">
+      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -431,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671054742833</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="optimized the isPerfectNumber algo, the logic is that when a number is divisible by 2, there's a corresponding &quot;pair&quot; of number/2...So for number = 28, if it's divisible by 2, then the &quot;pair&quot; is number/2 or 28/2 = 14.  Since 2 is the smallest divisible number, then 14 is the largest divisible number, i.e. you won't find any divisible number between 14 and 28.   1 + 2 + 4 + 7 + 14 = 28.  Thus, we can just short-circuit the loop to stop at half of number or number/2.  This will improve the code performance by looping only half as much.">
+      <created>1671079155680</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1671079155680</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,7 +452,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a new function, getting much better with java" />
     <MESSAGE value="beg of a bit tougher exercises" />
     <MESSAGE value="removed redundant code and optmized" />
     <MESSAGE value="removed redundant code and optimized" />
@@ -471,7 +476,8 @@
     <MESSAGE value="can pack algo is done" />
     <MESSAGE value="more optimized approach to the packing algo" />
     <MESSAGE value="explanation added" />
-    <option name="LAST_COMMIT_MESSAGE" value="explanation added" />
+    <MESSAGE value="optimized the isPerfectNumber algo, the logic is that when a number is divisible by 2, there's a corresponding &quot;pair&quot; of number/2...So for number = 28, if it's divisible by 2, then the &quot;pair&quot; is number/2 or 28/2 = 14.  Since 2 is the smallest divisible number, then 14 is the largest divisible number, i.e. you won't find any divisible number between 14 and 28.   1 + 2 + 4 + 7 + 14 = 28.  Thus, we can just short-circuit the loop to stop at half of number or number/2.  This will improve the code performance by looping only half as much." />
+    <option name="LAST_COMMIT_MESSAGE" value="optimized the isPerfectNumber algo, the logic is that when a number is divisible by 2, there's a corresponding &quot;pair&quot; of number/2...So for number = 28, if it's divisible by 2, then the &quot;pair&quot; is number/2 or 28/2 = 14.  Since 2 is the smallest divisible number, then 14 is the largest divisible number, i.e. you won't find any divisible number between 14 and 28.   1 + 2 + 4 + 7 + 14 = 28.  Thus, we can just short-circuit the loop to stop at half of number or number/2.  This will improve the code performance by looping only half as much." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
