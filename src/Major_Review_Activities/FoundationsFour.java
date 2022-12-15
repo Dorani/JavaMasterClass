@@ -158,15 +158,13 @@ public class FoundationsFour {
    }
 
     //Function that will print out the highest common divisor between 2 numbers
-
-
-    public static int getGreatestCommonDivisor(int first, int second){
-        if(first>=10 && second>=10) {
+    public static int getGreatestCommonDivisor(int first, int second) {
+        if ((first >= 10) && (second >= 10)) {
             // Find the minimum of 2 num to improve efficiency
             int min = Math.min(first, second);
             int greatestCommonDivisor = 0;
             // Can use i=first or i=second, but not as performant as i=min
-            for(int i = min; i > 1; i--){
+            for (int i = min; i > 1; i--){
                 if((first % i== 0) && (second %i == 0)){
                     // return highest divisor and break
                     return greatestCommonDivisor = i;
