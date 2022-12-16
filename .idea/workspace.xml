@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="optimized getGreatestCommonDivisor by finding the minimum of the two numbers (line 166 - FoundationsFour) then using the min to start the for loop and count down until we find the first common divisor (which is the greatest common divisor) and break out of the loop rather than continue wasted processing of subsequent irrelevant common divisors">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="edits and cleaning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFour.java" afterDir="false" />
     </list>
@@ -452,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671080831591</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="edits and cleaning">
+      <created>1671081154363</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1671081154363</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed redundant code and optimized" />
     <MESSAGE value="isPalindrome example complete, using a math approach with mod and division as well as temp variables" />
     <MESSAGE value="just some edits and new example to check out true" />
     <MESSAGE value="working through more algos" />
@@ -492,7 +498,8 @@
     <MESSAGE value="optimized the isPerfectNumber algo, the logic is that when a number is divisible by 2, there's a corresponding &quot;pair&quot; of number/2...So for number = 28, if it's divisible by 2, then the &quot;pair&quot; is number/2 or 28/2 = 14.  Since 2 is the smallest divisible number, then 14 is the largest divisible number, i.e. you won't find any divisible number between 14 and 28.   1 + 2 + 4 + 7 + 14 = 28.  Thus, we can just short-circuit the loop to stop at half of number or number/2.  This will improve the code performance by looping only half as much." />
     <MESSAGE value="small edits and cleaning" />
     <MESSAGE value="optimized getGreatestCommonDivisor by finding the minimum of the two numbers (line 166 - FoundationsFour) then using the min to start the for loop and count down until we find the first common divisor (which is the greatest common divisor) and break out of the loop rather than continue wasted processing of subsequent irrelevant common divisors" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimized getGreatestCommonDivisor by finding the minimum of the two numbers (line 166 - FoundationsFour) then using the min to start the for loop and count down until we find the first common divisor (which is the greatest common divisor) and break out of the loop rather than continue wasted processing of subsequent irrelevant common divisors" />
+    <MESSAGE value="edits and cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="edits and cleaning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

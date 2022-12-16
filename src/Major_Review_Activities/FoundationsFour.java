@@ -123,10 +123,7 @@ public class FoundationsFour {
 
     //Helper Function that checks conditions of passed parameters
     public static boolean isValid(int number) {
-        if(number >= 10 && number <= 1000) {
-            return true;
-        }
-        return false;
+        return number >= 10 && number <= 1000;
     }
 
     //Function that checks if at least two numbers share the same last digit
