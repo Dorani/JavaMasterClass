@@ -7,6 +7,11 @@ public class FoundationsFive {
         System.out.println("First example - canPack: bigCount:2, smallCount:4, Goal: 9  ");
         System.out.println(canPack(2, 0, 9));
         System.out.println("---------------------------------------------------");
+
+        //Second example:
+        System.out.println("Second example - canPack: getLargestPrime: 217 ");
+        System.out.println(getLargestPrime(217));
+        System.out.println("---------------------------------------------------");
     }
 
     //1. Validation of the parameter values
@@ -24,4 +29,21 @@ public class FoundationsFive {
         }
         return smallCount >= goal;
     }
+
+     //The definition of prime number (or a prime) is a natural number greater than 1 that is not a product of two
+     // smaller natural numbers. So, if a number is divisible by 2, it's not a prime number. And, you never need to
+     // check the entire range of the number since any number that is divisible by 2 has a corresponding number that is
+     // equal or greater. For example, number = 62 can be broken down to 2 x 31. No need to check from 32, 33, 34...61.
+     // The largest prime is 31.
+     //With that knowledge, you can optimize the for loop to start the iterator at number/2 and stop at 2.
+     // This will improve the performance since you only have to loop half of the range.
+     public static int getLargestPrime(int number) {
+         if(number <= 1) return -1;
+         for(int i = number/2; i >= 2; i--) {
+             if(number % i == 0) {
+                 number = i;
+             }
+         }
+         return number;
+     }
 }
