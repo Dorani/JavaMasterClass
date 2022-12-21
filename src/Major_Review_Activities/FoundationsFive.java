@@ -39,7 +39,7 @@ public class FoundationsFive {
      // This will improve the performance since you only have to loop half of the range.
      public static int getLargestPrime(int number) {
          if(number <= 1) return -1;
-         for(int i = number/2; i >= 2; i--) {
+         for(int i = number / 2; i >= 2; i--) {
              if(number % i == 0) {
                  number = i;
              }

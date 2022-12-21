@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="simplified if statement">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="get largest prime, works, and tested, maybe can optimize but will move forward.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFive.java" afterDir="false" />
     </list>
@@ -466,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671156198362</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="get largest prime, works, and tested, maybe can optimize but will move forward.">
+      <created>1671533478865</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1671533478865</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +488,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="just some edits and new example to check out true" />
     <MESSAGE value="working through more algos" />
     <MESSAGE value="third algos to sum even numbers in any digit, still using a math based approach with mod and div" />
     <MESSAGE value="built out another algo with a pure math based approach" />
@@ -506,7 +512,8 @@
     <MESSAGE value="optimized getGreatestCommonDivisor by finding the minimum of the two numbers (line 166 - FoundationsFour) then using the min to start the for loop and count down until we find the first common divisor (which is the greatest common divisor) and break out of the loop rather than continue wasted processing of subsequent irrelevant common divisors" />
     <MESSAGE value="edits and cleaning" />
     <MESSAGE value="simplified if statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="simplified if statement" />
+    <MESSAGE value="get largest prime, works, and tested, maybe can optimize but will move forward." />
+    <option name="LAST_COMMIT_MESSAGE" value="get largest prime, works, and tested, maybe can optimize but will move forward." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
