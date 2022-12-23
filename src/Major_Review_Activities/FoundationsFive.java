@@ -1,5 +1,7 @@
 package Major_Review_Activities;
 
+import java.util.Scanner;
+
 public class FoundationsFive {
 
     public static void main(String [] args) {
@@ -11,6 +13,11 @@ public class FoundationsFive {
         //Second example:
         System.out.println("Second example - canPack: getLargestPrime: 217 ");
         System.out.println(getLargestPrime(217));
+        System.out.println("---------------------------------------------------");
+
+        //Third example:
+        System.out.println("Third example - Scanner: askQuestions: ");
+        askQuestions();
         System.out.println("---------------------------------------------------");
     }
 
@@ -45,5 +52,45 @@ public class FoundationsFive {
              }
          }
          return number;
+     }
+
+     public static void printSquareStar(int number) {
+        if(number < 5) {
+            System.out.println("Invalid Value");
+        } else {
+            for (int row = 0; row < number; row++) {
+                for (int column = 0; column < number; column++) {
+                    if(row == 0 || row == number -1 || column == 0 || column == number - 1
+                                || column == row || column == row -1) {
+                        System.out.println("*");
+                    } else {
+                        System.out.println(" ");
+                    }
+                }
+                System.out.println("");
+            }
+        }
+     }
+
+     public static void askQuestions() {
+         Scanner scanner = new Scanner(System.in);
+
+         double counter = 1;
+         double sum = 0;
+
+
+         while(counter <= 5) {
+             System.out.println("Enter a number " + counter);
+             String readNumber = scanner.nextLine();
+
+             try {
+                 double number = Double.parseDouble(readNumber);
+                 counter++;
+                 sum += number;
+             } catch (NumberFormatException nfe) {
+                 System.out.println("Invalid Number");
+             }
+         }
+         System.out.println(sum);
      }
 }

@@ -473,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671533478865</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="get largest prime, works, and tested, maybe can optimize but will move forward.">
+      <created>1671618308416</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1671618308416</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
