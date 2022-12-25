@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="get largest prime, works, and tested, maybe can optimize but will move forward.">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="working with input and outputs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsFive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +51,8 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FoundationsFive">
-    <configuration name="Foundations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Major_Review_Activities.FoundationsFive">
+    <configuration name="Major_Review_Activities.Foundations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
@@ -66,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FoundationsFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Major_Review_Activities.FoundationsFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsFive" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
@@ -79,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FoundationsFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Major_Review_Activities.FoundationsFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsFour" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
@@ -92,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FoundationsThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Major_Review_Activities.FoundationsThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsThree" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
@@ -105,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FoundationsTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Major_Review_Activities.FoundationsTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsTwo" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FoundationsFive" />
-        <item itemvalue="Application.FoundationsFour" />
-        <item itemvalue="Application.FoundationsThree" />
-        <item itemvalue="Application.FoundationsTwo" />
-        <item itemvalue="Application.Foundations" />
+        <item itemvalue="Application.Major_Review_Activities.FoundationsFive" />
+        <item itemvalue="Application.Major_Review_Activities.FoundationsFour" />
+        <item itemvalue="Application.Major_Review_Activities.FoundationsThree" />
+        <item itemvalue="Application.Major_Review_Activities.FoundationsTwo" />
+        <item itemvalue="Application.Major_Review_Activities.Foundations" />
       </list>
     </recent_temporary>
   </component>
@@ -136,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00001" summary="refreshing out all my old Java work to continue it out">
-      <created>1669596240994</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1669596240994</updated>
     </task>
     <task id="LOCAL-00002" summary="refreshing out all my old Java work to continue it out">
       <created>1669596636749</created>
@@ -480,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671618308416</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="working with input and outputs">
+      <created>1671804968158</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1671804968159</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working through more algos" />
     <MESSAGE value="third algos to sum even numbers in any digit, still using a math based approach with mod and div" />
     <MESSAGE value="built out another algo with a pure math based approach" />
     <MESSAGE value="new algo, still same approach, but looks like we can clean things up a bit with another function" />
@@ -520,7 +518,8 @@
     <MESSAGE value="edits and cleaning" />
     <MESSAGE value="simplified if statement" />
     <MESSAGE value="get largest prime, works, and tested, maybe can optimize but will move forward." />
-    <option name="LAST_COMMIT_MESSAGE" value="get largest prime, works, and tested, maybe can optimize but will move forward." />
+    <MESSAGE value="working with input and outputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with input and outputs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -536,5 +535,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaMasterClass$FoundationsFive.ic" NAME="FoundationsFive Coverage Results" MODIFIED="1671804894381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Major_Review_Activities.*</FILTER>
+    </SUITE>
   </component>
 </project>
