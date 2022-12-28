@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="working with input and outputs">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="working on a simple cli using the scanner class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsSix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +52,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Major_Review_Activities.FoundationsFive">
-    <configuration name="Major_Review_Activities.Foundations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations" />
+  <component name="RunManager" selected="Application.FoundationsSix">
+    <configuration name="FoundationsSix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsSix" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FoundationsSix" />
         <item itemvalue="Application.Major_Review_Activities.FoundationsFive" />
         <item itemvalue="Application.Major_Review_Activities.FoundationsFour" />
         <item itemvalue="Application.Major_Review_Activities.FoundationsThree" />
         <item itemvalue="Application.Major_Review_Activities.FoundationsTwo" />
-        <item itemvalue="Application.Major_Review_Activities.Foundations" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00002" summary="refreshing out all my old Java work to continue it out">
-      <created>1669596636749</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1669596636749</updated>
     </task>
     <task id="LOCAL-00003" summary="adding more examples to refresh java skills">
       <created>1669597729821</created>
@@ -479,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671804968159</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="working on a simple cli using the scanner class">
+      <created>1671938686026</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1671938686026</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="third algos to sum even numbers in any digit, still using a math based approach with mod and div" />
     <MESSAGE value="built out another algo with a pure math based approach" />
     <MESSAGE value="new algo, still same approach, but looks like we can clean things up a bit with another function" />
     <MESSAGE value="simplified, about to test" />
@@ -519,7 +519,8 @@
     <MESSAGE value="simplified if statement" />
     <MESSAGE value="get largest prime, works, and tested, maybe can optimize but will move forward." />
     <MESSAGE value="working with input and outputs" />
-    <option name="LAST_COMMIT_MESSAGE" value="working with input and outputs" />
+    <MESSAGE value="working on a simple cli using the scanner class" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on a simple cli using the scanner class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
