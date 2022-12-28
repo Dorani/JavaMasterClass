@@ -37,6 +37,6 @@ public class FoundationsSix {
         }
         //print out the sum and average while(false)
         //close out the scanner instance
-        System.out.println("The SUM: " + sum + " and the Average: " + average);
+        System.out.println("SUM ="+" "+sum+" "+"AVG = "+""+(long)average);
     }
 }

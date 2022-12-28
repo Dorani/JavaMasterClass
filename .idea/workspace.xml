@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="working on a simple cli using the scanner class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="input calc with scanner">
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsSix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00003" summary="adding more examples to refresh java skills">
-      <created>1669597729821</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1669597729821</updated>
     </task>
     <task id="LOCAL-00004" summary="expanding out java fundamentals with some practice and organizing it for learning purposes">
       <created>1669683694156</created>
@@ -480,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671938686026</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="input calc with scanner">
+      <created>1672267855821</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1672267855821</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="built out another algo with a pure math based approach" />
     <MESSAGE value="new algo, still same approach, but looks like we can clean things up a bit with another function" />
     <MESSAGE value="simplified, about to test" />
     <MESSAGE value="function tested, works, moving on" />
@@ -520,7 +518,8 @@
     <MESSAGE value="get largest prime, works, and tested, maybe can optimize but will move forward." />
     <MESSAGE value="working with input and outputs" />
     <MESSAGE value="working on a simple cli using the scanner class" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on a simple cli using the scanner class" />
+    <MESSAGE value="input calc with scanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="input calc with scanner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
