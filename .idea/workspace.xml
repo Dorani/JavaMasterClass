@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="input calc with scanner">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="edits">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsSix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00004" summary="expanding out java fundamentals with some practice and organizing it for learning purposes">
-      <created>1669683694156</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1669683694156</updated>
     </task>
     <task id="LOCAL-00005" summary="here is the code update for the foundations review">
       <created>1669683782470</created>
@@ -479,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672267855821</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="edits">
+      <created>1672267961634</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1672267961634</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new algo, still same approach, but looks like we can clean things up a bit with another function" />
     <MESSAGE value="simplified, about to test" />
     <MESSAGE value="function tested, works, moving on" />
     <MESSAGE value="print factors complete" />
@@ -519,7 +519,8 @@
     <MESSAGE value="working with input and outputs" />
     <MESSAGE value="working on a simple cli using the scanner class" />
     <MESSAGE value="input calc with scanner" />
-    <option name="LAST_COMMIT_MESSAGE" value="input calc with scanner" />
+    <MESSAGE value="edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="edits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

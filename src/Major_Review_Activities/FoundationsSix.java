@@ -21,13 +21,14 @@ public class FoundationsSix {
             System.out.println("Please enter a number that will be summed to the next, then averaged");
             counter++;
             boolean isInt = scanner.hasNextInt();
-            //if number entered is an int, ie hasInt()
+            //if number entered is an int, ie hasNextInt()
             if(isInt) {
                 //take that number and add it to the sum var
                 int number = scanner.nextInt();
                 //calculate the average, ie,sum / counter
                 sum += number;
-                average = Math.round(sum / counter);
+                average = (double) sum / counter;
+                average = Math.round(average);
                 //round down the average with the Math.round() method
             } else {
                 break;
@@ -36,7 +37,8 @@ public class FoundationsSix {
             scanner.nextLine();
         }
         //print out the sum and average while(false)
-        //close out the scanner instance
         System.out.println("SUM ="+" "+sum+" "+"AVG = "+""+(long)average);
+        //close out the scanner instance
+        scanner.close();
     }
 }
