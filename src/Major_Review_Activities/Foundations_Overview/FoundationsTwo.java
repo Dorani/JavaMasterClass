@@ -1,4 +1,4 @@
-package Major_Review_Activities;
+package Major_Review_Activities.Foundations_Overview;
 
 public class FoundationsTwo {
     public static void main(String[] args) {

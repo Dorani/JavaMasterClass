@@ -1,4 +1,4 @@
-package Major_Review_Activities;
+package Major_Review_Activities.Foundations_Overview;
 
 import java.util.Scanner;
 

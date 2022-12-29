@@ -1,4 +1,4 @@
-package Major_Review_Activities;
+package Major_Review_Activities.Foundations_Overview;
 
 public class FoundationsThree {
 
