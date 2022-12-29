@@ -5,8 +5,16 @@ import java.util.Scanner;
 public class FoundationsSix {
     public static void main(String [] args) {
         //First example:
-        System.out.println("First example - canPack: bigCount:2, smallCount:4, Goal: 9  ");
-        inputThenPrintSumAndAverage();
+//        System.out.println("First example - inputThenPrintSumAndAverage:  ");
+//        inputThenPrintSumAndAverage();
+//        System.out.println("---------------------------------------------------");
+
+        //Second example:
+        System.out.println("Second example - getBucketCount(3.4, 2.1, 1.5, 2):  ");
+        System.out.println(getBucketCount(3.4, 2.1, 1.5, 2));
+
+        System.out.println("Overloaded example 1 - getBucketCount(2.75, 3.25, 1.5):  ");
+        System.out.println(getBucketCount(2.75, 3.25, 1.5));
         System.out.println("---------------------------------------------------");
     }
 
@@ -41,4 +49,44 @@ public class FoundationsSix {
         //close out the scanner instance
         scanner.close();
     }
+
+    public static int getBucketCount(double width, double height, double areaPerBucket, int extraBuckets) {
+        double initialBucketCount = 0;
+
+        if(width <= 0 || height <= 0 || areaPerBucket <=0 || extraBuckets < 0) {
+            return -1;
+        }
+
+        double wallArea = width * height;
+        int totalBucketsNeeded = 0;
+        initialBucketCount = (extraBuckets * areaPerBucket) ;
+
+        while(initialBucketCount < wallArea) {
+            initialBucketCount += areaPerBucket;
+            totalBucketsNeeded++;
+        }
+        return totalBucketsNeeded;
+    }
+
+    public static int getBucketCount(double width, double height, double areaPerBucket) {
+        int numberOfTotalBucketsNeeded = 0;
+
+        if(width <= 0 || height <= 0 || areaPerBucket <= 0) {
+            return -1;
+        }
+        double wallArea = width * height;
+        numberOfTotalBucketsNeeded = (int) Math.ceil((wallArea / areaPerBucket));
+        return numberOfTotalBucketsNeeded;
+    }
+
+    public static int getBucketCount(double area, double areaPerBucket) {
+        int numberOfBucketsNeeded = 0;
+
+        if(area <= 0 || areaPerBucket <= 0) {
+            return -1;
+        }
+        numberOfBucketsNeeded = (int) Math.ceil(area / areaPerBucket);
+        return numberOfBucketsNeeded;
+    }
+
 }
