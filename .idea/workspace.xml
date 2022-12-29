@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="close out the scanner..">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="quick little painter algorithm to determine total number of buckets needed for a paint job, with overloaded methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Algorithms_Intro_5/PaintJob.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Algorithms_Intro_5/PaintJob.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/FoundationsSix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +51,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FoundationsSix">
+  <component name="RunManager" selected="Application.SimpleCalculator">
     <configuration name="FoundationsSix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsSix" />
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations.FoundationsSix" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Major_Review_Activities.*" />
+          <option name="PATTERN" value="Major_Review_Activities.Foundations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Major_Review_Activities.FoundationsFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsFive" />
+    <configuration name="Major_Review_Activities.Foundations.FoundationsFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations.FoundationsFive" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Major_Review_Activities.*" />
+          <option name="PATTERN" value="Major_Review_Activities.Foundations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Major_Review_Activities.FoundationsFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsFour" />
+    <configuration name="Major_Review_Activities.Foundations.FoundationsFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations.FoundationsFour" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Major_Review_Activities.*" />
+          <option name="PATTERN" value="Major_Review_Activities.Foundations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Major_Review_Activities.FoundationsThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsThree" />
+    <configuration name="Major_Review_Activities.Foundations.FoundationsThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations.FoundationsThree" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Major_Review_Activities.*" />
+          <option name="PATTERN" value="Major_Review_Activities.Foundations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Major_Review_Activities.FoundationsTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.FoundationsTwo" />
+    <configuration name="SimpleCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Intermediate_Overview.SimpleCalculator" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Major_Review_Activities.*" />
+          <option name="PATTERN" value="Major_Review_Activities.Intermediate_Overview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FoundationsSix" />
-        <item itemvalue="Application.Major_Review_Activities.FoundationsFive" />
-        <item itemvalue="Application.Major_Review_Activities.FoundationsFour" />
-        <item itemvalue="Application.Major_Review_Activities.FoundationsThree" />
-        <item itemvalue="Application.Major_Review_Activities.FoundationsTwo" />
+        <item itemvalue="Application.SimpleCalculator" />
+        <item itemvalue="Application.Major_Review_Activities.Foundations.FoundationsSix" />
+        <item itemvalue="Application.Major_Review_Activities.Foundations.FoundationsFive" />
+        <item itemvalue="Application.Major_Review_Activities.Foundations.FoundationsFour" />
+        <item itemvalue="Application.Major_Review_Activities.Foundations.FoundationsThree" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added new activity, kpm to mph">
-      <created>1669685279058</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1669685279058</updated>
     </task>
     <task id="LOCAL-00007" summary="added new foundations, calc the area of a circle">
       <created>1669686273716</created>
@@ -481,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672268087157</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="quick little painter algorithm to determine total number of buckets needed for a paint job, with overloaded methods">
+      <created>1672354079516</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1672354079516</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="function tested, works, moving on" />
     <MESSAGE value="print factors complete" />
     <MESSAGE value="implemented greatest common divisor algo using a pure math approach - going to stick to this style for a bit" />
     <MESSAGE value="tested, works" />
@@ -521,7 +518,8 @@
     <MESSAGE value="input calc with scanner" />
     <MESSAGE value="edits" />
     <MESSAGE value="close out the scanner.." />
-    <option name="LAST_COMMIT_MESSAGE" value="close out the scanner.." />
+    <MESSAGE value="quick little painter algorithm to determine total number of buckets needed for a paint job, with overloaded methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick little painter algorithm to determine total number of buckets needed for a paint job, with overloaded methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
