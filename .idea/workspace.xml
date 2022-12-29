@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="quick little painter algorithm to determine total number of buckets needed for a paint job, with overloaded methods">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="a bit of organizational refactor for maintenance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleCalculator">
+  <component name="RunManager" selected="Application.Person">
     <configuration name="FoundationsSix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations.FoundationsSix" />
       <module name="JavaMasterClass" />
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Major_Review_Activities.Foundations.FoundationsThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations.FoundationsThree" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Intermediate_Overview.Person" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Major_Review_Activities.Foundations.*" />
+          <option name="PATTERN" value="Major_Review_Activities.Intermediate_Overview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.SimpleCalculator" />
         <item itemvalue="Application.Major_Review_Activities.Foundations.FoundationsSix" />
         <item itemvalue="Application.Major_Review_Activities.Foundations.FoundationsFive" />
         <item itemvalue="Application.Major_Review_Activities.Foundations.FoundationsFour" />
-        <item itemvalue="Application.Major_Review_Activities.Foundations.FoundationsThree" />
       </list>
     </recent_temporary>
   </component>
@@ -135,20 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added new foundations, calc the area of a circle">
-      <created>1669686273716</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1669686273716</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added method overloading example with some explanation">
-      <created>1669686583596</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1669686583596</updated>
     </task>
     <task id="LOCAL-00009" summary="added method overloading example with some explanation">
       <created>1669686599691</created>
@@ -479,7 +465,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672354079516</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="a little OOP Java review, starting from scratch.">
+      <created>1672355897068</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1672355897068</updated>
+    </task>
+    <task id="LOCAL-00057" summary="a bit of organizational refactor for maintenance">
+      <created>1672355962426</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1672355962426</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,8 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="print factors complete" />
-    <MESSAGE value="implemented greatest common divisor algo using a pure math approach - going to stick to this style for a bit" />
     <MESSAGE value="tested, works" />
     <MESSAGE value="added comments to foundations 4, a little explanation high level of each algo" />
     <MESSAGE value="added new algos to determine if a number passed into a function is a perfect number, check comments" />
@@ -519,7 +517,9 @@
     <MESSAGE value="edits" />
     <MESSAGE value="close out the scanner.." />
     <MESSAGE value="quick little painter algorithm to determine total number of buckets needed for a paint job, with overloaded methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="quick little painter algorithm to determine total number of buckets needed for a paint job, with overloaded methods" />
+    <MESSAGE value="a little OOP Java review, starting from scratch." />
+    <MESSAGE value="a bit of organizational refactor for maintenance" />
+    <option name="LAST_COMMIT_MESSAGE" value="a bit of organizational refactor for maintenance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
