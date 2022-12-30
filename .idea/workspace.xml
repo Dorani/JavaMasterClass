@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="edits">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="another OOP example with overloading, and math based sub routines">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Wall">
+  <component name="RunManager" selected="Application.Point">
     <configuration name="FoundationsSix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations.FoundationsSix" />
       <module name="JavaMasterClass" />
@@ -65,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Major_Review_Activities.Foundations.FoundationsFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations.FoundationsFive" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Intermediate_Overview.Person" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Major_Review_Activities.Foundations.*" />
+          <option name="PATTERN" value="Major_Review_Activities.Intermediate_Overview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Intermediate_Overview.Person" />
+    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Intermediate_Overview.Point" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Point" />
         <item itemvalue="Application.Wall" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.SimpleCalculator" />
         <item itemvalue="Application.Major_Review_Activities.Foundations.FoundationsSix" />
-        <item itemvalue="Application.Major_Review_Activities.Foundations.FoundationsFive" />
       </list>
     </recent_temporary>
   </component>
@@ -135,20 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00012" summary="multiple new sub routines with progressive difficulty, moving on to foundations 3 now">
-      <created>1669771705405</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1669771705405</updated>
-    </task>
-    <task id="LOCAL-00013" summary="added new examples on number manipulation with mods, getting a bit more complex but fun. for the switch statement, we modified to an enhanced version.">
-      <created>1669806006521</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1669806006521</updated>
     </task>
     <task id="LOCAL-00014" summary="added new isOdd example, still working through some algos">
       <created>1669943636594</created>
@@ -479,7 +466,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672361354088</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="another OOP example with overloading, and math based sub routines">
+      <created>1672365917162</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1672365917162</updated>
+    </task>
+    <task id="LOCAL-00062" summary="another OOP example with overloading, and math based sub routines">
+      <created>1672365927438</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1672365927438</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added new algos to determine if a number passed into a function is a perfect number, check comments" />
     <MESSAGE value="new algo, works, but def needs to be optmized with 2 new sub routines, a reverse, and a perhaps a converter" />
     <MESSAGE value="fixed the reverse issue with a new method to help us in our main function" />
     <MESSAGE value="adding some comments to explain" />
@@ -519,7 +519,8 @@
     <MESSAGE value="New OOP example, going to keep going" />
     <MESSAGE value="more oop" />
     <MESSAGE value="edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="edits" />
+    <MESSAGE value="another OOP example with overloading, and math based sub routines" />
+    <option name="LAST_COMMIT_MESSAGE" value="another OOP example with overloading, and math based sub routines" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
