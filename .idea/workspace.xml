@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="New OOP example, going to keep going">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Algorithms_Medium/WallArea.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Algorithms_Medium/WallArea.md" afterDir="false" />
-    </list>
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="more oop" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,13 +133,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00010" summary="edits">
-      <created>1669688973675</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1669688973675</updated>
     </task>
     <task id="LOCAL-00011" summary="multiple new sub routines with progressive difficulty, moving on to foundations 3 now">
       <created>1669726243407</created>
@@ -480,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672357057478</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="more oop">
+      <created>1672361300191</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1672361300191</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +492,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added comments to foundations 4, a little explanation high level of each algo" />
     <MESSAGE value="added new algos to determine if a number passed into a function is a perfect number, check comments" />
     <MESSAGE value="new algo, works, but def needs to be optmized with 2 new sub routines, a reverse, and a perhaps a converter" />
     <MESSAGE value="fixed the reverse issue with a new method to help us in our main function" />
@@ -520,7 +516,8 @@
     <MESSAGE value="a little OOP Java review, starting from scratch." />
     <MESSAGE value="a bit of organizational refactor for maintenance" />
     <MESSAGE value="New OOP example, going to keep going" />
-    <option name="LAST_COMMIT_MESSAGE" value="New OOP example, going to keep going" />
+    <MESSAGE value="more oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="more oop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
