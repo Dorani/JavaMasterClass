@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="another OOP example with overloading, and math based sub routines">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="some small edits for readability">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Algorithms_Medium/CarpetCostCalculator/CarpetCostCalculator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Algorithms_Medium/CarpetCostCalculator/CarpetCostCalculator.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00014" summary="added new isOdd example, still working through some algos">
-      <created>1669943636594</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1669943636594</updated>
     </task>
     <task id="LOCAL-00015" summary="picking up steam with java algos">
       <created>1669948724099</created>
@@ -480,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672365927438</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="some small edits for readability">
+      <created>1672366396369</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1672366396369</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new algo, works, but def needs to be optmized with 2 new sub routines, a reverse, and a perhaps a converter" />
     <MESSAGE value="fixed the reverse issue with a new method to help us in our main function" />
     <MESSAGE value="adding some comments to explain" />
     <MESSAGE value="optimized algos with another helper function, everything seems to be working, moving on to more complex problems soon, and some oop" />
@@ -520,7 +519,8 @@
     <MESSAGE value="more oop" />
     <MESSAGE value="edits" />
     <MESSAGE value="another OOP example with overloading, and math based sub routines" />
-    <option name="LAST_COMMIT_MESSAGE" value="another OOP example with overloading, and math based sub routines" />
+    <MESSAGE value="some small edits for readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="some small edits for readability" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
