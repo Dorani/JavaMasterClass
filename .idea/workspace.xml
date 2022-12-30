@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="first class of the carpet calculator">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="carpet floor calculator complete, and works perfectly" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,13 +133,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00016" summary="some optimization in the code base">
-      <created>1670193240874</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1670193240874</updated>
     </task>
     <task id="LOCAL-00017" summary="added a new function, getting much better with java">
       <created>1670194365907</created>
@@ -479,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672370457708</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="carpet floor calculator complete, and works perfectly">
+      <created>1672371360302</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1672371360302</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +492,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding some comments to explain" />
     <MESSAGE value="optimized algos with another helper function, everything seems to be working, moving on to more complex problems soon, and some oop" />
     <MESSAGE value="just starting a new problem set, won't get to tackle it completely" />
     <MESSAGE value="can pack algo is done" />
@@ -519,7 +516,8 @@
     <MESSAGE value="another OOP example with overloading, and math based sub routines" />
     <MESSAGE value="some small edits for readability" />
     <MESSAGE value="first class of the carpet calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="first class of the carpet calculator" />
+    <MESSAGE value="carpet floor calculator complete, and works perfectly" />
+    <option name="LAST_COMMIT_MESSAGE" value="carpet floor calculator complete, and works perfectly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
