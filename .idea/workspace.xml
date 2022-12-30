@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="some small edits for readability">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="first class of the carpet calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Algorithms_Medium/CarpetCostCalculator/CarpetCostCalculator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Algorithms_Medium/CarpetCostCalculator/CarpetCostCalculator.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +51,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Point">
-    <configuration name="FoundationsSix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Foundations.FoundationsSix" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Intermediate_Overview.CarpetCostCalculator.Calculator" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Major_Review_Activities.Foundations.*" />
+          <option name="PATTERN" value="Major_Review_Activities.Intermediate_Overview.CarpetCostCalculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.Point" />
         <item itemvalue="Application.Wall" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.SimpleCalculator" />
-        <item itemvalue="Application.Major_Review_Activities.Foundations.FoundationsSix" />
       </list>
     </recent_temporary>
   </component>
@@ -136,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00015" summary="picking up steam with java algos">
-      <created>1669948724099</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1669948724099</updated>
     </task>
     <task id="LOCAL-00016" summary="some optimization in the code base">
       <created>1670193240874</created>
@@ -480,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672366396369</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="first class of the carpet calculator">
+      <created>1672370457707</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1672370457708</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed the reverse issue with a new method to help us in our main function" />
     <MESSAGE value="adding some comments to explain" />
     <MESSAGE value="optimized algos with another helper function, everything seems to be working, moving on to more complex problems soon, and some oop" />
     <MESSAGE value="just starting a new problem set, won't get to tackle it completely" />
@@ -520,7 +518,8 @@
     <MESSAGE value="edits" />
     <MESSAGE value="another OOP example with overloading, and math based sub routines" />
     <MESSAGE value="some small edits for readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="some small edits for readability" />
+    <MESSAGE value="first class of the carpet calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="first class of the carpet calculator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
