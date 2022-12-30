@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="more oop" />
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="edits">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00011" summary="multiple new sub routines with progressive difficulty, moving on to foundations 3 now">
-      <created>1669726243407</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1669726243407</updated>
     </task>
     <task id="LOCAL-00012" summary="multiple new sub routines with progressive difficulty, moving on to foundations 3 now">
       <created>1669771705405</created>
@@ -477,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672361300191</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="edits">
+      <created>1672361354088</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1672361354088</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,14 +512,14 @@
     <MESSAGE value="working with input and outputs" />
     <MESSAGE value="working on a simple cli using the scanner class" />
     <MESSAGE value="input calc with scanner" />
-    <MESSAGE value="edits" />
     <MESSAGE value="close out the scanner.." />
     <MESSAGE value="quick little painter algorithm to determine total number of buckets needed for a paint job, with overloaded methods" />
     <MESSAGE value="a little OOP Java review, starting from scratch." />
     <MESSAGE value="a bit of organizational refactor for maintenance" />
     <MESSAGE value="New OOP example, going to keep going" />
     <MESSAGE value="more oop" />
-    <option name="LAST_COMMIT_MESSAGE" value="more oop" />
+    <MESSAGE value="edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="edits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
