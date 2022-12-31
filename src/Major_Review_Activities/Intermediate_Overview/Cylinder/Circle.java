@@ -2,10 +2,10 @@ package Major_Review_Activities.Intermediate_Overview.Cylinder;
 
 public class Circle {
 
-    private double radius;
+    private final double radius;
 
     public Circle(double radius) {
-        if(radius < 0) {
+        if (radius < 0) {
             radius = 0;
         }
         this.radius = radius;

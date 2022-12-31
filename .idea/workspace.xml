@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="complex number oop complete">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="working on a cylinder oop inherit problems">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Cylinder/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Cylinder/Circle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00019" summary="removed redundant code and optimized">
-      <created>1670262316170</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1670262316170</updated>
     </task>
     <task id="LOCAL-00020" summary="isPalindrome example complete, using a math approach with mod and division as well as temp variables">
       <created>1670295751550</created>
@@ -479,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672441121441</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="working on a cylinder oop inherit problems">
+      <created>1672508931624</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1672508931624</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="just starting a new problem set, won't get to tackle it completely" />
     <MESSAGE value="can pack algo is done" />
     <MESSAGE value="more optimized approach to the packing algo" />
     <MESSAGE value="explanation added" />
@@ -519,7 +519,8 @@
     <MESSAGE value="first class of the carpet calculator" />
     <MESSAGE value="carpet floor calculator complete, and works perfectly" />
     <MESSAGE value="complex number oop complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="complex number oop complete" />
+    <MESSAGE value="working on a cylinder oop inherit problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on a cylinder oop inherit problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
