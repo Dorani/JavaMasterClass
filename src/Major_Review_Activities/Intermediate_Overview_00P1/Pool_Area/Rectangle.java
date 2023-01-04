@@ -1,4 +1,4 @@
-package Major_Review_Activities.Intermediate_Overview.Pool_Area;
+package Major_Review_Activities.Intermediate_Overview_00P1.Pool_Area;
 
 public class Rectangle {
 

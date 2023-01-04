@@ -1,4 +1,4 @@
-package Major_Review_Activities.Intermediate_Overview;
+package Major_Review_Activities.Intermediate_Overview_00P1;
 
 public class SimpleCalculator {
 

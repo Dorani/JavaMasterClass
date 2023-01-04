@@ -1,4 +1,4 @@
-package Major_Review_Activities.Intermediate_Overview.CarpetCostCalculator;
+package Major_Review_Activities.Intermediate_Overview_00P1.CarpetCostCalculator;
 
 public class Carpet {
     private double cost;
