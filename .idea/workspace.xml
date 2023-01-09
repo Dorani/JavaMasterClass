@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="edits/fixes">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="violated... oop, data structures etc...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/CarpetCostCalculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/CarpetCostCalculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/CarpetCostCalculator/Carpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/CarpetCostCalculator/Carpet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/CarpetCostCalculator/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/CarpetCostCalculator/Floor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/ComplexNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Cylinder/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/Cylinder/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Cylinder/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/Cylinder/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Cylinder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/Cylinder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Pool_Area/Cuboid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/Pool_Area/Cuboid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Pool_Area/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/Pool_Area/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Pool_Area/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/Pool_Area/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_00P1/Wall.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +123,6 @@
         <item itemvalue="Application.Major_Review_Activities.Intermediate_Overview_00P1.Pool_Area.Main" />
         <item itemvalue="Application.Major_Review_Activities.Intermediate_Overview_00P1.Cylinder.Main" />
         <item itemvalue="Application.Array_Intro_Challenge" />
-        <item itemvalue="Application.Major_Review_Activities.Intermediate_Overview_00P1.ComplexNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -149,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00026" summary="new algo, still same approach, but looks like we can clean things up a bit with another function">
-      <created>1670473667843</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1670473667843</updated>
     </task>
     <task id="LOCAL-00027" summary="simplified, about to test">
       <created>1670473964000</created>
@@ -493,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672686643073</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="violated... oop, data structures etc...">
+      <created>1672839431477</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1672839431477</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,7 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="optimized getGreatestCommonDivisor by finding the minimum of the two numbers (line 166 - FoundationsFour) then using the min to start the for loop and count down until we find the first common divisor (which is the greatest common divisor) and break out of the loop rather than continue wasted processing of subsequent irrelevant common divisors" />
     <MESSAGE value="edits and cleaning" />
     <MESSAGE value="simplified if statement" />
     <MESSAGE value="get largest prime, works, and tested, maybe can optimize but will move forward." />
@@ -533,7 +517,8 @@
     <MESSAGE value="rectangle pool class which we will be extending to shortly" />
     <MESSAGE value="pool algo complete" />
     <MESSAGE value="edits/fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="edits/fixes" />
+    <MESSAGE value="violated... oop, data structures etc..." />
+    <option name="LAST_COMMIT_MESSAGE" value="violated... oop, data structures etc..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
