@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="Encapsulation - java example">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="Encapsulation - java example method implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cards">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Array_Intro_Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Data_Structures.Arrays.Array_Challenges.Array_Intro_Challenge" />
       <module name="JavaMasterClass" />
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComplexNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Intermediate_Overview_00P1.ComplexNumber" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Intermediate_Overview_OOP2.Encapsulation.Main" />
       <module name="JavaMasterClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Major_Review_Activities.Intermediate_Overview_00P1.*" />
+          <option name="PATTERN" value="Major_Review_Activities.Intermediate_Overview_OOP2.Encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Cards" />
         <item itemvalue="Application.Major_Review_Activities.Intermediate_Overview_00P1.Pool_Area.Main" />
         <item itemvalue="Application.Major_Review_Activities.Intermediate_Overview_00P1.Cylinder.Main" />
@@ -134,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00028" summary="function tested, works, moving on">
-      <created>1670474053557</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1670474053557</updated>
     </task>
     <task id="LOCAL-00029" summary="print factors complete">
       <created>1670507307930</created>
@@ -478,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673233333356</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Encapsulation - java example method implementation">
+      <created>1673234148027</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1673234148027</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="simplified if statement" />
     <MESSAGE value="get largest prime, works, and tested, maybe can optimize but will move forward." />
     <MESSAGE value="working with input and outputs" />
     <MESSAGE value="working on a simple cli using the scanner class" />
@@ -518,7 +518,8 @@
     <MESSAGE value="edits/fixes" />
     <MESSAGE value="violated... oop, data structures etc..." />
     <MESSAGE value="Encapsulation - java example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation - java example" />
+    <MESSAGE value="Encapsulation - java example method implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation - java example method implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
