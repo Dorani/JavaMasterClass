@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="Encapsulation - java example method implementation">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="Encapsulation - java example method implementation finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Encapsulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Encapsulation/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,20 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00029" summary="print factors complete">
-      <created>1670507307930</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1670507307930</updated>
-    </task>
-    <task id="LOCAL-00030" summary="implemented greatest common divisor algo using a pure math approach - going to stick to this style for a bit">
-      <created>1670700123256</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1670700123256</updated>
     </task>
     <task id="LOCAL-00031" summary="tested, works">
       <created>1670704195574</created>
@@ -479,7 +466,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673234148027</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Encapsulation - java example method implementation finished">
+      <created>1673358024312</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1673358024312</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Encapsulation - java example method implementation finished">
+      <created>1673358030146</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1673358030146</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="get largest prime, works, and tested, maybe can optimize but will move forward." />
     <MESSAGE value="working with input and outputs" />
     <MESSAGE value="working on a simple cli using the scanner class" />
     <MESSAGE value="input calc with scanner" />
@@ -519,7 +519,8 @@
     <MESSAGE value="violated... oop, data structures etc..." />
     <MESSAGE value="Encapsulation - java example" />
     <MESSAGE value="Encapsulation - java example method implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation - java example method implementation" />
+    <MESSAGE value="Encapsulation - java example method implementation finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation - java example method implementation finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

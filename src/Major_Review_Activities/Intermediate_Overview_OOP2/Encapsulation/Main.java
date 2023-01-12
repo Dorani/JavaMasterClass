@@ -12,4 +12,3 @@ public class Main {
         System.out.println("Pages printed was " + pagesPrinted +" new total print count for printer = " +printer.getPagesPrinted());
     }
 }
-K
