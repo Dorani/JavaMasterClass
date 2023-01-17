@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="Encapsulation - java example method implementation finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Encapsulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Encapsulation/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00031" summary="tested, works">
-      <created>1670704195574</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1670704195574</updated>
     </task>
     <task id="LOCAL-00032" summary="added comments to foundations 4, a little explanation high level of each algo">
       <created>1670711393914</created>
@@ -480,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673358030146</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Encapsulation - java example method implementation finished">
+      <created>1673497174744</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1673497174745</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
