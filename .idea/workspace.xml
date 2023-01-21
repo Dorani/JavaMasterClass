@@ -136,13 +136,6 @@
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
     </task>
-    <task id="LOCAL-00032" summary="added comments to foundations 4, a little explanation high level of each algo">
-      <created>1670711393914</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1670711393914</updated>
-    </task>
     <task id="LOCAL-00033" summary="added new algos to determine if a number passed into a function is a perfect number, check comments">
       <created>1670728176275</created>
       <option name="number" value="00033" />
@@ -479,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673497174745</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Encapsulation - java example method implementation finished">
+      <created>1673961869644</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1673961869644</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
