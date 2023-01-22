@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="    Polymorphism - java example method implementation finished, tested in main with multiple instances add methods on top">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="    Polymorphism - java example method implementation finished, about to test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Tesla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Tesla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00037" summary="optimized algos with another helper function, everything seems to be working, moving on to more complex problems soon, and some oop">
-      <created>1670904124829</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1670904124829</updated>
     </task>
     <task id="LOCAL-00038" summary="just starting a new problem set, won't get to tackle it completely">
       <created>1670991249474</created>
@@ -480,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674354150682</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="    Polymorphism - java example method implementation finished, about to test">
+      <created>1674355769012</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1674355769012</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="input calc with scanner" />
     <MESSAGE value="close out the scanner.." />
     <MESSAGE value="quick little painter algorithm to determine total number of buckets needed for a paint job, with overloaded methods" />
     <MESSAGE value="a little OOP Java review, starting from scratch." />
@@ -520,7 +520,8 @@
     <MESSAGE value="Encapsulation - java example method implementation finished" />
     <MESSAGE value="    Polymorphism - java example method implementation finished" />
     <MESSAGE value="    Polymorphism - java example method implementation finished, tested in main with multiple instances add methods on top" />
-    <option name="LAST_COMMIT_MESSAGE" value="    Polymorphism - java example method implementation finished, tested in main with multiple instances add methods on top" />
+    <MESSAGE value="    Polymorphism - java example method implementation finished, about to test" />
+    <option name="LAST_COMMIT_MESSAGE" value="    Polymorphism - java example method implementation finished, about to test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

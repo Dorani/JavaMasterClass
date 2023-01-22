@@ -2,11 +2,11 @@ package Major_Review_Activities.Intermediate_Overview_OOP2.Polymorphism;
 
 public class Tesla extends Car {
     private boolean AI;
-    private float EV;
+    private double EV;
     private int speed;
     private boolean selfDriving;
 
-    public Tesla(String name, int cylinders,  boolean AI, float EV, int speed, boolean selfDriving) {
+    public Tesla(String name, int cylinders,  boolean AI, double EV, int speed, boolean selfDriving) {
        super(name,cylinders);
        this.AI = AI;
        this.EV = EV;
