@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="    Polymorphism - java example method implementation finished">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="    Polymorphism - java example method implementation finished, tested in main with multiple instances add methods on top">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Main.java" afterDir="false" />
     </list>
@@ -136,20 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00035" summary="fixed the reverse issue with a new method to help us in our main function">
-      <created>1670903306590</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1670903306590</updated>
-    </task>
-    <task id="LOCAL-00036" summary="adding some comments to explain">
-      <created>1670903493195</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1670903493195</updated>
     </task>
     <task id="LOCAL-00037" summary="optimized algos with another helper function, everything seems to be working, moving on to more complex problems soon, and some oop">
       <created>1670904124829</created>
@@ -480,7 +466,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674325472817</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="    Polymorphism - java example method implementation finished, tested in main with multiple instances add methods on top">
+      <created>1674354134128</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1674354134128</updated>
+    </task>
+    <task id="LOCAL-00085" summary="    Polymorphism - java example method implementation finished, tested in main with multiple instances add methods on top">
+      <created>1674354150682</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1674354150682</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working on a simple cli using the scanner class" />
     <MESSAGE value="input calc with scanner" />
     <MESSAGE value="close out the scanner.." />
     <MESSAGE value="quick little painter algorithm to determine total number of buckets needed for a paint job, with overloaded methods" />
@@ -520,7 +519,8 @@
     <MESSAGE value="Encapsulation - java example method implementation" />
     <MESSAGE value="Encapsulation - java example method implementation finished" />
     <MESSAGE value="    Polymorphism - java example method implementation finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="    Polymorphism - java example method implementation finished" />
+    <MESSAGE value="    Polymorphism - java example method implementation finished, tested in main with multiple instances add methods on top" />
+    <option name="LAST_COMMIT_MESSAGE" value="    Polymorphism - java example method implementation finished, tested in main with multiple instances add methods on top" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

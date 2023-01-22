@@ -12,7 +12,7 @@ public class Main {
         System.out.println(cls65.accelerate());
         System.out.println(cls65.brake());
 
-        Lamborghini lamborghini = new Lamborghini("Ghost", 12,2, 240, true);
+        Lamborghini lamborghini = new Lamborghini("Ghost", 12,2, 240, false);
         System.out.println(lamborghini.startEngine());
         System.out.println(lamborghini.accelerate());
         System.out.println(lamborghini.brake());
