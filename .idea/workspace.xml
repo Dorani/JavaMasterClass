@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="Encapsulation - java example method implementation finished">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="    Polymorphism - java example method implementation finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +52,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Array_Intro_Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structures.Arrays.Array_Challenges.Array_Intro_Challenge" />
-      <module name="JavaMasterClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Data_Structures.Arrays.Array_Challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Major_Review_Activities.Intermediate_Overview_OOP2.Polymorphism.Main">
     <configuration name="Cards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Intermediate_Overview_Data_Structures.Cards" />
       <module name="JavaMasterClass" />
@@ -117,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Major_Review_Activities.Intermediate_Overview_OOP2.Polymorphism.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Major_Review_Activities.Intermediate_Overview_OOP2.Polymorphism.Main" />
+      <module name="JavaMasterClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Major_Review_Activities.Intermediate_Overview_OOP2.Polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Major_Review_Activities.Intermediate_Overview_OOP2.Polymorphism.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Cards" />
         <item itemvalue="Application.Major_Review_Activities.Intermediate_Overview_00P1.Pool_Area.Main" />
         <item itemvalue="Application.Major_Review_Activities.Intermediate_Overview_00P1.Cylinder.Main" />
-        <item itemvalue="Application.Array_Intro_Challenge" />
       </list>
     </recent_temporary>
   </component>
@@ -135,20 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00033" summary="added new algos to determine if a number passed into a function is a perfect number, check comments">
-      <created>1670728176275</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1670728176275</updated>
-    </task>
-    <task id="LOCAL-00034" summary="new algo, works, but def needs to be optmized with 2 new sub routines, a reverse, and a perhaps a converter">
-      <created>1670902602639</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1670902602639</updated>
     </task>
     <task id="LOCAL-00035" summary="fixed the reverse issue with a new method to help us in our main function">
       <created>1670903306590</created>
@@ -479,7 +466,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673961869644</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="    Polymorphism - java example method implementation finished">
+      <created>1674325464412</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1674325464412</updated>
+    </task>
+    <task id="LOCAL-00083" summary="    Polymorphism - java example method implementation finished">
+      <created>1674325472817</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1674325472817</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working with input and outputs" />
     <MESSAGE value="working on a simple cli using the scanner class" />
     <MESSAGE value="input calc with scanner" />
     <MESSAGE value="close out the scanner.." />
@@ -519,7 +519,8 @@
     <MESSAGE value="Encapsulation - java example" />
     <MESSAGE value="Encapsulation - java example method implementation" />
     <MESSAGE value="Encapsulation - java example method implementation finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation - java example method implementation finished" />
+    <MESSAGE value="    Polymorphism - java example method implementation finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="    Polymorphism - java example method implementation finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
