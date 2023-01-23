@@ -5,6 +5,7 @@ public class Tesla extends Car {
     private double EV;
     private int speed;
     private boolean selfDriving;
+    private boolean tech;
 
     public Tesla(String name, int cylinders,  boolean AI, double EV, int speed, boolean selfDriving) {
        super(name,cylinders);
@@ -12,6 +13,7 @@ public class Tesla extends Car {
        this.EV = EV;
        this.speed = speed;
        this.selfDriving = selfDriving;
+       this.tech = true;
     }
 
     @Override public String startEngine() {
@@ -25,8 +27,11 @@ public class Tesla extends Car {
     }
 
     @Override public String brake() {
-        this.AI = true;
-        this.selfDriving = true;
+        if (this.tech) {
+            this.AI = true;
+            this.selfDriving = true;
+            System.out.println("Tech is activated");
+        }
         return "Car is self driving, and self parking!?";
     }
 }
