@@ -12,17 +12,28 @@ public class Tesla extends Car {
        this.AI = true;
        this.EV = EV;
        this.speed = speed;
-       this.selfDriving = selfDriving;
+       this.selfDriving = false;
        this.tech = true;
     }
 
     @Override public String startEngine() {
         this.EV = 390;
+        if (this.tech) {
+            this.AI = true;
+            this.selfDriving = true;
+            this.EV += 10;
+            System.out.println("Tech is activated");
+        }
         return "Car initialized, there is " + this.EV + " remaining electricity";
     }
 
     @Override public String accelerate() {
         this.speed = 210;
+        if (this.tech) {
+            this.AI = true;
+            this.selfDriving = true;
+            this.speed += 75;
+        }
         return "Hitting a smooth " + this.speed + " total speed in an EV car!?";
     }
 

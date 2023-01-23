@@ -137,13 +137,6 @@
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
     </task>
-    <task id="LOCAL-00040" summary="can pack algo is done">
-      <created>1671038426350</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1671038426350</updated>
-    </task>
     <task id="LOCAL-00041" summary="more optimized approach to the packing algo">
       <created>1671054603420</created>
       <option name="number" value="00041" />
@@ -480,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674435686538</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="    Polymorphism - java example method implementation finished, tested, works, adding a bit more on top">
+      <created>1674436119609</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1674436119609</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
