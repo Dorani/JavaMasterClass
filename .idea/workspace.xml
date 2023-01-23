@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="    Polymorphism - java example method implementation finished, about to test">
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="    Polymorphism - java example method implementation finished, tested, works, moving on to OOP big challenge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Benz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Benz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Lamborghini.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Lamborghini.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Tesla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Tesla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,13 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00038" summary="just starting a new problem set, won't get to tackle it completely">
-      <created>1670991249474</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1670991249474</updated>
     </task>
     <task id="LOCAL-00039" summary="just starting a new problem set, won't get to tackle it completely">
       <created>1670991264419</created>
@@ -481,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674355769012</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="    Polymorphism - java example method implementation finished, tested, works, moving on to OOP big challenge">
+      <created>1674356056139</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1674356056139</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="close out the scanner.." />
     <MESSAGE value="quick little painter algorithm to determine total number of buckets needed for a paint job, with overloaded methods" />
     <MESSAGE value="a little OOP Java review, starting from scratch." />
     <MESSAGE value="a bit of organizational refactor for maintenance" />
@@ -521,7 +521,8 @@
     <MESSAGE value="    Polymorphism - java example method implementation finished" />
     <MESSAGE value="    Polymorphism - java example method implementation finished, tested in main with multiple instances add methods on top" />
     <MESSAGE value="    Polymorphism - java example method implementation finished, about to test" />
-    <option name="LAST_COMMIT_MESSAGE" value="    Polymorphism - java example method implementation finished, about to test" />
+    <MESSAGE value="    Polymorphism - java example method implementation finished, tested, works, moving on to OOP big challenge" />
+    <option name="LAST_COMMIT_MESSAGE" value="    Polymorphism - java example method implementation finished, tested, works, moving on to OOP big challenge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

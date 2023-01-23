@@ -4,12 +4,14 @@ public class Benz extends Car {
     private boolean tints;
     private String model;
     private int rimSize;
+    private boolean tech;
 
     public Benz(String name, int cylinders, boolean tints, String model, int rimSize) {
         super(name, cylinders);
         this.tints = tints;
         this.model = model;
         this.rimSize = rimSize;
+        this.tech = false;
     }
 
     @Override public String startEngine() {

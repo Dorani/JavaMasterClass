@@ -11,9 +11,10 @@ public class Lamborghini extends Car {
         super(name, cylinders);
         this.doors = doors;
         this.mph = mph;
-        this.tech = tech;
-
+        this.tech = false;
     }
+
+
     @Override
     public String startEngine() {
         return "Sounds like an earthquake!";
@@ -26,7 +27,6 @@ public class Lamborghini extends Car {
     }
     @Override
     public String brake() {
-        this.tech = true;
         this.hiMphBrake = "Emergency Tech Break!";
         return "The car is going too fast to stop we need to initialize: " + this.hiMphBrake;
     }

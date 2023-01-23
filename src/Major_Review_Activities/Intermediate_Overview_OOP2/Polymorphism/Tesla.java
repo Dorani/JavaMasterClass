@@ -8,7 +8,7 @@ public class Tesla extends Car {
 
     public Tesla(String name, int cylinders,  boolean AI, double EV, int speed, boolean selfDriving) {
        super(name,cylinders);
-       this.AI = AI;
+       this.AI = true;
        this.EV = EV;
        this.speed = speed;
        this.selfDriving = selfDriving;
