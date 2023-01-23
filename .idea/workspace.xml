@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="    Polymorphism - java example method implementation finished, tested, works, adding a bit more on top">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Tesla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Major_Review_Activities/Intermediate_Overview_OOP2/Polymorphism/Tesla.java" afterDir="false" />
-    </list>
+    <list default="true" id="90d1e00d-fcde-4840-868c-8d40eb9d077c" name="Changes" comment="    Polymorphism - java example method implementation finished, tested, works, adding a bit more on top, now finished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,13 +133,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669595983773</updated>
-    </task>
-    <task id="LOCAL-00041" summary="more optimized approach to the packing algo">
-      <created>1671054603420</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1671054603420</updated>
     </task>
     <task id="LOCAL-00042" summary="explanation added">
       <created>1671054742833</created>
@@ -480,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674436119609</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="    Polymorphism - java example method implementation finished, tested, works, adding a bit more on top, now finished">
+      <created>1674436458920</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1674436458920</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +492,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="a little OOP Java review, starting from scratch." />
     <MESSAGE value="a bit of organizational refactor for maintenance" />
     <MESSAGE value="New OOP example, going to keep going" />
     <MESSAGE value="more oop" />
@@ -520,7 +516,8 @@
     <MESSAGE value="    Polymorphism - java example method implementation finished, about to test" />
     <MESSAGE value="    Polymorphism - java example method implementation finished, tested, works, moving on to OOP big challenge" />
     <MESSAGE value="    Polymorphism - java example method implementation finished, tested, works, adding a bit more on top" />
-    <option name="LAST_COMMIT_MESSAGE" value="    Polymorphism - java example method implementation finished, tested, works, adding a bit more on top" />
+    <MESSAGE value="    Polymorphism - java example method implementation finished, tested, works, adding a bit more on top, now finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="    Polymorphism - java example method implementation finished, tested, works, adding a bit more on top, now finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
